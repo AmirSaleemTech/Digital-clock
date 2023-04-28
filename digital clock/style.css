@@ -1,0 +1,54 @@
+body {
+    background-image: url(img.jpg.jpg);
+    
+
+    color: #fff;
+    background-size:1000px 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    back
+    font-family: 'Open Sans', sans-serif;
+}
+
+.digital-clock {
+    margin-top: 100px;
+    background-color: rgb(21, 41, 41);
+    border: 2px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.clock {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.colon {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.day, .month, .year {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .clock {
+        font-size: 50px;
+    }
+
+    .colon {
+        font-size: 50px;
+    }
+
+    .date {
+        font-size: 25px;
+    }
+}
